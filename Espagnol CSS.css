@@ -1,0 +1,677 @@
+/*code CSS pour mon site pour l'espagnol */
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F6F2DD;
+}
+.div1{
+   background-image: url("prairie1.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 550px;
+}
+
+.div3{
+   background-image: url("prairie2.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 450px;
+}
+
+.div4{
+   background-image: url("prairie3.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 570px;
+}
+
+
+.div5{
+   background-image: url("prairie5.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 500px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 4px;
+    padding-top: 10px;
+}
+
+header{
+    height: 80px;
+    padding: 10px;
+    background-color: #103700;
+    color: white;
+}
+
+footer{
+    color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    height: 100px;
+    background-color: #103700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: #103700;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+   float: left;
+   list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.menu_{
+    text-decoration: underline;
+}
+
+.div2{
+    padding: 30px;
+    height: 220px;
+}
+.p1{
+    width: 47%;
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.p2{
+    width: 47%;
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify; 
+}
+
+img{
+    height: 200px;
+    margin: 5px;
+    border: 3px solid #103700;
+}
+
+.img1{
+    height: 250px;
+    display: inline-block;
+    width: 19%;
+    margin-left: 8px;
+}
+
+.p3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2{
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+
+.h21{
+   margin-bottom: -80px;
+}
+
+.vid{
+    display: inline-block;
+    margin: 50px;
+}
+
+video{
+    width: 300px;
+}
+
+.vid1{
+    width: 80%;
+    margin: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+
+/*téléphone -----------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px){
+  body {
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+.div1{
+   height: 340px;
+}
+
+.div3{
+   height: 250px;
+}
+
+.div4{
+   height: 300px;
+}
+
+.div5{
+   height: 270px;
+}
+h1{
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+header{
+    height: 60px;
+    padding: 5px;
+}
+
+footer{
+    color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    height: 130px;
+    background-color: #103700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: #103700;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+   float: left;
+   list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.menu_{
+    text-decoration: underline;
+}
+
+.div2{
+    margin-top: -25px;
+    height: 180px;
+}
+.p1{
+    width: 100%;
+    float: none;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.p2{
+    width: 100%;
+    float: none;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+img{
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.img1{
+    height: 200px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.p3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2{
+    text-transform: capitalize;
+    text-indent: 100px;
+    margin-top: 50px;
+}
+
+.h21{
+   margin-bottom: -80px;
+   margin-top: 10px;
+}
+
+.vid{
+    display: block;
+    text-align: center;
+}
+
+video{
+    width: 300px;
+}
+
+.vid1{
+    width: 100%;
+    margin: 0px;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    text-align: center;
+}
+}
+
+/*tablette*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+}
+.div1{
+   background-image: url("prairie1.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 550px;
+}
+
+.div3{
+   background-image: url("prairie2.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 450px;
+}
+
+.div4{
+   background-image: url("prairie3.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 570px;
+}
+
+
+.div5{
+   background-image: url("prairie5.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 500px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 4px;
+    padding-top: 10px;
+}
+
+header{
+    height: 80px;
+    padding: 10px;
+    background-color: #103700;
+    color: white;
+}
+
+footer{
+    color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    height: 100px;
+    background-color: #103700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: #103700;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+   float: left;
+   list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.menu_{
+    text-decoration: underline;
+}
+
+.div2{
+    padding: 30px;
+    height: 220px;
+}
+.p1{
+    width: 47%;
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.p2{
+    width: 47%;
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify; 
+}
+
+
+
+
+/*materiales*/
+
+img{
+    height: 200px;
+    margin: 5px;
+    border: 3px solid #103700;
+}
+
+.img1{
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.p3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2{
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+
+.h21{
+   margin-bottom: -80px;
+}
+
+.vid{
+    display: inline-block;
+    margin: 50px;
+}
+
+video{
+    width: 300px;
+}
+
+.vid1{
+    width: 80%;
+    margin: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+}
+
+/*@media screen and (min-width: 1024px) and (max-width: 1281px);*/
+
+/*grand écran*/
+@media screen and (min-width: 1282px){
+  body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F6F2DD;
+}
+.div1{
+   background-image: url("prairie1.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 550px;
+}
+
+.div3{
+   background-image: url("prairie2.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 450px;
+}
+
+.div4{
+   background-image: url("prairie3.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 570px;
+}
+
+
+.div5{
+   background-image: url("prairie5.jpg");
+   background-color: #F6F2DD;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 500px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 4px;
+    padding-top: 10px;
+}
+
+header{
+    height: 80px;
+    padding: 10px;
+    background-color: #103700;
+    color: white;
+}
+
+footer{
+    color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    height: 100px;
+    background-color: #103700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: #103700;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+   float: left;
+   list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.menu_{
+    text-decoration: underline;
+}
+
+.div2{
+    padding: 30px;
+    height: 220px;
+}
+.p1{
+    width: 47%;
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.p2{
+    width: 47%;
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify; 
+}
+
+
+
+
+/*materiales*/
+
+img{
+    height: 200px;
+    margin: 5px;
+    border: 3px solid #103700;
+}
+
+.img1{
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.p3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2{
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+
+.h21{
+   margin-bottom: -80px;
+}
+
+.vid{
+    display: inline-block;
+    margin: 50px;
+}
+
+video{
+    width: 300px;
+}
+
+.vid1{
+    width: 80%;
+    margin: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+}
+
