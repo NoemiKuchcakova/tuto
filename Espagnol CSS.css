@@ -172,7 +172,7 @@ video{
 
 /*téléphone -----------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1081px){
+@media screen and (max-width: 767px){
   body {
   letter-spacing: 1px;
   font-size: 13px;
